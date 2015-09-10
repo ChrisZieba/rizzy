@@ -1,0 +1,43 @@
+{
+  "name": "rizzy",
+  "version": "0.0.1",
+  "description": "S",
+  "main": "index.js",
+  "jest": {
+    "scriptPreprocessor": "./preprocessor.js",
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "unmockedModulePathPatterns": [
+      "./node_modules/react"
+    ]
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Chris Zieba",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "harmonize": "^1.4.1",
+    "jest-cli": "^0.4.1",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "jquery": "latest",
+    "react-tools": "^0.13.3",
+    "run-sequence": "^1.1.0",
+    "purecss": "latest",
+    "backbone": "latest",
+    "browser-sync": "^2.7.1",
+    "gulp": "^3.8.11",
+    "gulp-filter": "^2.0.2",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-react": "^3.0.1",
+    "gulp-shell": "^0.4.1",
+    "gulp-concat": "latest",
+    "browserify": "latest",
+    "watchify": "latest",
+    "reactify": "latest",
+    "vinyl-source-stream": "latest"
+  }
+}
