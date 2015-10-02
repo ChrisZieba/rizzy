@@ -43,6 +43,7 @@ gulp.task('browserify', function() {
     .pipe(gulp.dest('build/'));
 });
 
+// Build production
 gulp.task('css', function () {
     gulp.watch('./app/styles/**/*.css', function () {
         return gulp.src([
